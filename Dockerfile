@@ -1,5 +1,5 @@
 #
-# WSO2 API Manager 1.9.0
+# WSO2 Enterprise Service Bus 4.8.1
 #
 FROM java:7
 MAINTAINER Massimo Danieli, massimo@massimodanieli.com
