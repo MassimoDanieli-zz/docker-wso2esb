@@ -12,5 +12,5 @@ apt-get update && \
     rm /opt/wso2esb-4.8.1.zip
 
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
-EXPOSE 9443
+EXPOSE 9443 9763 8280 8243
 CMD ["/opt/wso2esb-4.8.1/bin/wso2server.sh"]
