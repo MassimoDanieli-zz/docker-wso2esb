@@ -9,6 +9,7 @@ apt-get update && \
     apt-get install -y zip && \
     apt-get clean && \
     unzip /opt/wso2esb-4.8.1.zip -d /opt && \
+    wget -P /opt/wso2esb-4.8.1/repository/components/lib/ http://central.maven.org/maven2/mysql/mysql-connector-java/5.1.36/mysql-connector-java-5.1.36.jar \
     rm /opt/wso2esb-4.8.1.zip
 
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
