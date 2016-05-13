@@ -15,7 +15,7 @@ The dockerfile will:
 
 ### Usage
 * To pull: `docker pull massimodanieli/wso2esb`
-* To build: `docker build --rm -t your_image_name github.com/massimodanieli/docker-wso2apim`
+* To build: `docker build --rm -t your_image_name github.com/massimodanieli/docker-wso2esb`
 * To run: `docker run --rm --name your_container_name -p 9443:9443 your_image_name`
 * To access ESB web admin console, navigate to `https://localhost:9443`
 
