@@ -10,7 +10,7 @@ The dockerfile will:
 * Install `zip`.
 * Unzip the ESB 5.0.0 ZIP.
 * Remove the ESB 5.0.0 ZIP.
-* Expose the container port `9443`.
+* Expose the container port 9443 9763 8280 8243 9999 11111 .
 * Set the ESB  `wso2server.sh` start-up script as the container start-up command.
 
 ### Usage
