@@ -11,6 +11,6 @@ apt-get update && \
     unzip /opt/wso2esb-5.0.0.zip -d /opt && \
     rm /opt/wso2esb-5.0.0.zip
 
-ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
+ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 EXPOSE 9443 9763 8280 8243 9999 11111
 ENTRYPOINT ["/opt/wso2esb-5.0.0/bin/wso2server.sh"]
